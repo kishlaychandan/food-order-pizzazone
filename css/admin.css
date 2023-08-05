@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background: #333333;
+	color: white;
+}
+
+.wrapper{
+
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+
+}
+
+.tbl-full{
+	width: 100%;
+}
+
+.tbl-30{
+	width: 30%;
+}
+table tr th{
+	border-bottom: 1px solid white;
+	padding: 1%;
+	text-align: left;
+}
+table tr td{
+	padding: 1%;
+}
+
+.btn-primary{
+	background-color: #033E3E;
+	padding: 2%;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 6px;
+	transition: .6s;
+}
+.btn-primary:hover{
+	background-color: #045F5F;
+}
+.btn-secondary{
+	background-color: #4CC417;
+	padding: 2%;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 6px;
+	transition: .6s;
+}
+.btn-secondary:hover{
+	background-color: #52D017;
+}
+.btn-danger{
+	background-color: red;
+	padding: 2%;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 6px;
+	transition: .6s;
+}
+.btn-danger:hover{
+	background-color: #E41B17;
+}
+
+
+
+.success{
+	color: #2ed573;
+
+}
+.error{
+	color: #ff4757;
+}
+
+/*menu*/
+.menu{
+	border-bottom: 1px solid #2E86C1;
+}
+.menu ul{
+list-style-type: none;
+}
+.menu ul li{
+	display: inline;
+	padding: 3%;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	transition: .8s;
+	background: #800517;
+	padding: 6px 20px;
+	border-radius: 10px;
+}
+.menu ul li a:hover{
+	color: white;
+	background: #3D0C02;
+	transition: .8s;
+}
+
+/* main content*/
+.main-content{
+	background: url('../images/adminbgimg.jpg');
+	background-size:cover;
+	
+	padding: 3% 0;
+}
+
+.col-4{
+	width: 18%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+}
+
+/*footer*/
+.footer{
+	
+	width: 100%;
+	background: #2E86C1;
+	color: white;
+}
+
+
+/*Login*/
+
+.login{
+	width: 30%;
+	border: 1px solid grey;
+	margin: 10% auto;
+	padding: 2%;
+}
+
+h1{
+	text-align: center;
+}
+
+.box1{
+	background: tomato;
+	border-radius: 10px;
+	color: white;
+}
+
+.box2{
+	background: #1F45FC;
+	border-radius: 10px;
+	color: white;
+}
+
+.box3{
+	background: #6CC417;
+	border-radius: 10px;
+	color: white;
+}
+
+.box4{
+	background: #FFA500;
+	border-radius: 10px;
+	color: white;
+}
+.box1:hover{
+	
+}
+
